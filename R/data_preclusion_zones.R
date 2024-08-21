@@ -2,6 +2,7 @@
 #'
 #' @description An \code{sf} collection containing preclusion zones that can be used to reallocate stations during survey design for NEFSC surveys that are strata-based.
 #' A preclusion zone is the union of 1-nautical mile buffers around turbine and substation locations and includes the export cable corridor.
+#' Turbine and substation locations are also included for reference.
 #'
 #' @format An \code{sf} collection:
 #' \describe{
@@ -21,7 +22,7 @@
 #' @examples
 #' \dontrun{
 #' # load pkg
-#' library(NEFSC-PEMAD-OWEB-Survey_Interactions)
+#' library(surveyInteractions)
 #'
 #' # visualize
 #' plot(preclusion_zones['TYPE'])

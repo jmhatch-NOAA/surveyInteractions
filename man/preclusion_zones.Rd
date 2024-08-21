@@ -22,13 +22,14 @@ An \code{sf} collection:
 data("preclusion_zones")
 }
 \description{
-An \code{sf} collection containing preclusion zones that can be used to reallocate stations during survey design for NEFSC surveys.
-A preclusion zone is the union of 1 nautical mile buffers around turbine and substation locations and includes the export cable corridor.
+An \code{sf} collection containing preclusion zones that can be used to reallocate stations during survey design for NEFSC surveys that are strata-based.
+A preclusion zone is the union of 1-nautical mile buffers around turbine and substation locations and includes the export cable corridor.
+Turbine and substation locations are also included for reference.
 }
 \examples{
 \dontrun{
-# load terra
-library(NEFC-PEMAD-OWEB-Survey_Interactions)
+# load pkg
+library(surveyInteractions)
 
 # visualize
 plot(preclusion_zones['TYPE'])
