@@ -1,13 +1,13 @@
-# PEMAD-OWEB-Survey_Interactions
+# surveyInteractions
 
-[![gitleaks](https://github.com/jmhatch-NOAA/PEMAD-OWEB-Survey_Interactions/actions/workflows/secretScan.yml/badge.svg)](https://github.com/jmhatch-NOAA/PEMAD-OWEB-Survey_Interactions/actions/workflows/secretScan.yml) 
+[![gitleaks](https://github.com/jmhatch-NOAA/surveyInteractions/actions/workflows/secretScan.yml/badge.svg)](https://github.com/jmhatch-NOAA/surveyInteractions/actions/workflows/secretScan.yml) 
 
 A repository of survey preclusion zones in simple features [`sf`](https://r-spatial.github.io/sf/) format stored in an *.rda file for use with [`R`](https://www.r-project.org/).
 
 ### Installation
 
 ```r
-devtools::install_github('jmhatch-NOAA/PEMAD-OWEB-Survey_Interactions')
+devtools::install_github('jmhatch-NOAA/surveyInteractions')
 ```
 
 ### Legal disclaimer
