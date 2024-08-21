@@ -23,7 +23,7 @@ data("preclusion_zones")
 }
 \description{
 An \code{sf} collection containing preclusion zones that can be used to reallocate stations during survey design for NEFSC surveys that are strata-based.
-A preclusion zone is the union of 1-nautical mile buffers around turbine and substation locations and includes the export cable corridor.
+A preclusion zone is the union of 1-nautical mile buffers around turbine and substation locations and includes the export cable corridors.
 Turbine and substation locations are also included for reference.
 }
 \examples{
